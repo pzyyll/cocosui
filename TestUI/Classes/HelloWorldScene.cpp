@@ -3,6 +3,10 @@
 #include "ui/CocosGUI.h"
 #include <iostream>
 
+
+// self .h
+#include "chapter2/chapter2_scene.h"
+
 USING_NS_CC;
 
 using namespace cocostudio::timeline;
@@ -24,14 +28,19 @@ Scene* HelloWorld::createScene()
 
 void onStartClick(Ref* ref, ui::Widget::TouchEventType type) {
     switch (type) {
-        case ui::Widget::TouchEventType::BEGAN:
+        case ui::Widget::TouchEventType::BEGAN: {
             std::cout << "Beging..." << std::endl;
+            auto chapter2_scene = Chapter2Scene::createScene();
+            Director::getInstance()->replaceScene(chapter2_scene);
             break;
-        case ui::Widget::TouchEventType::ENDED:
+        }
+        case ui::Widget::TouchEventType::ENDED:{
             std::cout << "Btn cliked." << std::endl;
             break;
-        default:
+        }
+        default: {
             break;
+        }
     }
 }
 

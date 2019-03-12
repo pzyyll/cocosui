@@ -25,6 +25,8 @@ public:
     
 private:
     // @todo
+    
+    double _floor_height;
 };
 
 #endif /* chapter2_scene_hpp */
