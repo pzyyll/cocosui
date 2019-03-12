@@ -1,0 +1,129 @@
+<Solution>
+  <PropertyGroup Name="TestUI" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="chapter12">
+          <Folder Name="fonts">
+            <TTF Name="arial.ttf" />
+          </Folder>
+          <Image Name="blueSprite.png" />
+          <Image Name="leftNormal.png" />
+          <Image Name="leftSelected.png" />
+          <Image Name="LightBlueSprite.png" />
+          <Image Name="restartNormal.png" />
+          <Image Name="restartSelected.png" />
+          <Image Name="rightNormal.png" />
+          <Image Name="rightSelected.png" />
+          <Image Name="whiteSprite.png" />
+        </Folder>
+        <Folder Name="chapter13">
+          <Audio Name="alert.mp3" />
+          <Audio Name="music.mp3" />
+        </Folder>
+        <Folder Name="chapter2">
+          <Image Name="Blue_Front1.png" />
+          <Image Name="LightBlue_Front1.png" />
+          <Image Name="White_Front1.png" />
+          <Image Name="ZigzagForest_Square.png" />
+          <Image Name="ZigzagGrass_Mud_Round.png" />
+          <Project Name="Chapter2Scene.csd" Type="Scene" />
+        </Folder>
+        <Folder Name="chapter3">
+          <PlistImageFolder Image="sprites.pvr.ccz" PListFile="sprites.plist" Name=".sprites_PList.Dir" />
+        </Folder>
+        <Folder Name="chapter4">
+          <Image Name="Blue_Back1.png" />
+          <Image Name="Blue_Back2.png" />
+          <Image Name="Blue_Back3.png" />
+          <Image Name="Blue_Front1.png" />
+          <Image Name="Blue_Front2.png" />
+          <Image Name="Blue_Front3.png" />
+          <Image Name="Blue_Left1.png" />
+          <Image Name="Blue_Left2.png" />
+          <Image Name="Blue_Left3.png" />
+          <Image Name="Blue_Right1.png" />
+          <Image Name="Blue_Right2.png" />
+          <Image Name="Blue_Right3.png" />
+        </Folder>
+        <Folder Name="chapter6">
+          <Fnt Name="bitmapRed.fnt" />
+          <Image Name="Button_Disable.png" />
+          <Image Name="Button_Normal.png" />
+          <Image Name="Button_Press.png" />
+          <Image Name="CheckBox_Disable.png" />
+          <Image Name="CheckBox_Normal.png" />
+          <Image Name="CheckBox_Press.png" />
+          <Image Name="CheckBoxNode_Disable.png" />
+          <Image Name="CheckBoxNode_Normal.png" />
+          <Image Name="CloseNormal.png" />
+          <Image Name="CloseSelected.png" />
+          <Image Name="LoadingBarFile.png" />
+          <Image Name="Slider_Back.png" />
+          <Image Name="Slider_PressBar.png" />
+          <Image Name="SliderNode_Disable.png" />
+          <Image Name="SliderNode_Normal.png" />
+          <Image Name="SliderNode_Press.png" />
+        </Folder>
+        <Folder Name="chapter7">
+          <Image Name="CloseNormal.png" />
+          <Image Name="CloseSelected.png" />
+          <TmxFile Name="isometric_grass_and_water.tmx" />
+        </Folder>
+        <Folder Name="chapter9">
+          <Folder Name="fonts">
+            <TTF Name="Marker Felt.ttf" />
+          </Folder>
+          <Image Name="alphamap.png" />
+          <Image Name="arx.png" />
+          <Mesh Name="axe.c3b" />
+          <Image Name="Blue_Front1.png" />
+          <Image Name="body.png" />
+          <Mesh Name="boss.c3b" />
+          <Image Name="boss.png" />
+          <Image Name="CloseNormal.png" />
+          <Image Name="CloseSelected.png" />
+          <Image Name="dirt.jpg" />
+          <Mesh Name="girl.c3b" />
+          <Image Name="Girl_Face.png" />
+          <Image Name="Girl_Glasses01.png" />
+          <Image Name="Girl_Hair01.png" />
+          <Image Name="Girl_Hair02.png" />
+          <Image Name="Girl_Hand.png" />
+          <Image Name="Girl_LowerBody01.png" />
+          <Image Name="Girl_LowerBody02.png" />
+          <Image Name="Girl_Shoes01.png" />
+          <Image Name="Girl_Shoes02.png" />
+          <Image Name="Girl_UpperBody01.png" />
+          <Image Name="Girl_UpperBody02.png" />
+          <Image Name="Grass2.jpg" />
+          <Image Name="GreenSkin.jpg" />
+          <Image Name="heightmap16.jpg" />
+          <Image Name="HelloWorld.png" />
+          <File Name="monguger.tga" />
+          <Mesh Name="orc.c3b" />
+          <Mesh Name="plane.obj" />
+          <Image Name="planetex.png" />
+          <Mesh Name="ReskinGirl.c3b" />
+          <Image Name="road.jpg" />
+          <Mesh Name="sphere.c3b" />
+          <Image Name="spheretex.png" />
+          <Mesh Name="tortoise.c3b" />
+          <Image Name="tortoise.png" />
+          <Image Name="Xie_01.png" />
+          <Mesh Name="zhujue.c3b" />
+          <Mesh Name="zhujue.c3t" />
+          <File Name="zhujue.FBX" />
+          <Image Name="zhujue.png" />
+          <Image Name="zhujue_jian.png" />
+        </Folder>
+        <Image Name="CloseNormal.png" />
+        <Image Name="CloseSelected.png" />
+        <Image Name="dot.png" />
+        <Image Name="HelloWorld.png" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <TTF Name="Marker Felt.ttf" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
